@@ -1,0 +1,12 @@
+fr\kmand\servlets\AjouterClientServlet.class
+fr\kmand\servlets\AjouterCommandeServlet.class
+fr\kmand\servlets\FormClient.class
+endcofirmcommande.class
+fr\kmand\servlets\FormCommande.class
+fr\kmand\servlets\CreerClientServlet.class
+fr\kmand\utils\ValidationUtils.class
+fr\kmand\servlets\CreerCommandeServlet.class
+fr\kmand\servlets\AccueilServlet.class
+fr\kmand\beans\Client.class
+fr\kmand\Main.class
+fr\kmand\beans\Commande.class
