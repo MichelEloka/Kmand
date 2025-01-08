@@ -17,7 +17,7 @@
         <strong>Succès!</strong> La commande pour le produit <strong>${commande.produit}</strong> a bien été ajoutée.
     </div>
 
-    <a href="formulaire-commande.jsp" class="btn btn-primary">Retour à l'accueil</a>
+    <a href="accueil" class="btn btn-primary">Retour à l'accueil</a>
 </div>
 
 </body>

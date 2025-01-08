@@ -10,6 +10,79 @@
 
 </head>
 <body>
+<style>
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+}
+
+.header {
+    background-color: #2a2a72;
+    color: white;
+    text-align: center;
+    padding: 40px 30px;
+    font-size: 28px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.container {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.logo {
+    font-size: 100px;
+    color: #2a2a72;
+    margin-bottom: 30px;
+}
+
+.buttons a {
+    display: inline-block;
+    margin: 15px 20px;
+    padding: 12px 25px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 123, 255, 0.3); 
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+    box-shadow: 0 6px 12px rgba(0, 123, 255, 0.5); 
+    transform: translateY(-3px); 
+}
+
+
+.animation {
+    animation: fadeIn 1.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+</style>
     <div class="header">
         <h1 class="animation">Bienvenue sur Kmand</h1>
     </div>

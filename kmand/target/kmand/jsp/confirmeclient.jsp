@@ -56,7 +56,7 @@
         </div>
 
         <button type="submit" class="btn btn-success">Confirmer</button>
-        <a href="formulaire-client.jsp" class="btn btn-danger">Retour</a>
+        <a href="formclient" class="btn btn-danger">Retour</a>
     </form>
 </div>
 

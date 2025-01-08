@@ -37,9 +37,8 @@
             </div>
         </div>
 
-        <!-- Boutons de confirmation ou retour -->
         <button type="submit" class="btn btn-success">Confirmer</button>
-        <a href="formulaire-commande.jsp" class="btn btn-danger">Retour</a>
+        <a href="formcommande" class="btn btn-danger">Retour</a>
     </form>
 </div>
 

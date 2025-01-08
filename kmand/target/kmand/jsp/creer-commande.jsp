@@ -8,7 +8,7 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-
+<
 <div class="container mt-5">
     <h2 class="text-center">Formulaire d'Ajout de Commande</h2>
 
@@ -16,7 +16,7 @@
         <div class="form-row">
             <div class="col-md-6 mb-3">
                 <label for="client">Client</label>
-                <select class="form-control" id="client" name="client" required>
+                <select class="form-control" id="client" name="client" >
                     <option value="">Sélectionner un client</option>
                     <option value="1">Client 1</option>
                     <option value="2">Client 2</option>
@@ -30,14 +30,14 @@
         <div class="form-row">
             <div class="col-md-6 mb-3">
                 <label for="article">Article</label>
-                <input type="text" class="form-control" id="article" name="article" maxlength="100" value="<%= request.getAttribute("article") != null ? request.getAttribute("article") : "" %>" required>
+                <input type="text" class="form-control" id="article" name="article" maxlength="100" value="<%= request.getAttribute("article") != null ? request.getAttribute("article") : "" %>" >
                 <c:if test="${not empty erreurArticle}">
                     <div class="text-danger">${erreurArticle}</div>
                 </c:if>
             </div>
             <div class="col-md-6 mb-3">
                 <label for="quantite">Quantité</label>
-                <input type="number" class="form-control" id="quantite" name="quantite" min="1" value="<%= request.getAttribute("quantite") != null ? request.getAttribute("quantite") : "" %>" required>
+                <input type="number" class="form-control" id="quantite" name="quantite" min="1" value="<%= request.getAttribute("quantite") != null ? request.getAttribute("quantite") : "" %>" >
                 <c:if test="${not empty erreurQuantite}">
                     <div class="text-danger">${erreurQuantite}</div>
                 </c:if>
@@ -47,7 +47,7 @@
         <div class="form-row">
             <div class="col-md-6 mb-3">
                 <label for="prix">Prix</label>
-                <input type="number" class="form-control" id="prix" name="prix" step="0.01" min="0" value="<%= request.getAttribute("prix") != null ? request.getAttribute("prix") : "" %>" required>
+                <input type="number" class="form-control" id="prix" name="prix" step="0.01" min="0" value="<%= request.getAttribute("prix") != null ? request.getAttribute("prix") : "" %>" >
                 <c:if test="${not empty erreurPrix}">
                     <div class="text-danger">${erreurPrix}</div>
                 </c:if>

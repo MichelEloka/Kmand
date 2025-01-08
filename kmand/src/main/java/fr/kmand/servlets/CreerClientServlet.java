@@ -59,7 +59,7 @@ public class CreerClientServlet extends HttpServlet {
 
         if (hasErrors) {
             request.setAttribute("client", client);
-            request.getRequestDispatcher("/jsp/confirmeclient.jsp").forward(request, response);
+            request.getRequestDispatcher("/jsp/creer-client.jsp").forward(request, response);
         } else {
             request.setAttribute("client", client);
             request.getRequestDispatcher("/jsp/confirmeclient.jsp").forward(request, response);
